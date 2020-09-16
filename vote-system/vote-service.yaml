@@ -4,6 +4,7 @@ metadata:
   labels:
     app: vote
   name: vote
+  namespace: vote
 spec:
   ports:
   - name: 5000-80
